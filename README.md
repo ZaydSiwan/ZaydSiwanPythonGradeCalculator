@@ -2,4 +2,4 @@
 
 <h2> Summary</h2>
 - Utilizes a GUI using Tkinter Messagebox
-![alt text](https://github.com/ZaydSiwan/ZaydSiwanPythonGradeCalculator/blob/main/CalcExample.png)
+![CalcExample](https://github.com/user-attachments/assets/80a4a783-22b7-4e5b-bebc-09463102f544)
