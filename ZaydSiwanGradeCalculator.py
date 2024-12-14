@@ -4,6 +4,8 @@
 import tkinter as tk
 from tkinter import messagebox
 
+# Code for the different GUI features such as: size, text, and the buttons
+
 class GradeCalculatorGUI:
     def __init__(self):
         self.main_window = tk.Tk()
@@ -35,6 +37,8 @@ class GradeCalculatorGUI:
         self.quit_button = tk.Button(self.main_window, text='Quit', command=self.main_window.quit)
         self.quit_button.pack(side='left')
 
+# Actual calculator portion using floats as they would be used for normal grading
+    
     def calculate_average(self):
         try:
             tests_grade = float(self.tests_grade_entry.get())
@@ -49,6 +53,8 @@ class GradeCalculatorGUI:
 
     def run(self):
         self.main_window.mainloop()
+
+# Initializers 
 
 if __name__ == '__main__':
     grade_calculator = GradeCalculatorGUI()
